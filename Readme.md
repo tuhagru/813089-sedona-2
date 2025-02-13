@@ -2,6 +2,7 @@
 
 * Студент: [Павел Павлович](https://up.htmlacademy.ru/htmlcss-individual/2/user/813089).
 * Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
+* Сайт: [Проект Седона](https://tuhagru.github.io/813089-sedona-2/)
 
 ---
 
