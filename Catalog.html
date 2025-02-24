@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог</title>
-    <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="style/Normalize.css">
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
   <header class="page-header">
     <nav class="navigation">
-      <a href="#">
+      <a href="index.html">
         <img class="logo" src="images/Logo.svg" width="138" height="64" alt="Логотип города Седона">
       </a>
       <ul class="navigation-list">
@@ -42,81 +43,81 @@
     </header>
     <main class="main-inner">
       <div class="div-filter">
-      <header class="inner-nav">
-        <h1 class="inner-nav-h1">Гостиницы Седоны</h1>
-        <ul class="inner-nav-list">
-          <li class="inner-nav-it">
-            <a class="inner-nav-it-a" href="index.html">
-              <img src="images/Vector-krohi.svg" alt="#">
-              <span class="visually-hidden">На главную страницу</span>
-            </a>
-          </li>
-          <li class="inner-nav-it">
-            <a class="inner-nav-it-a" href="Catalog.html">
-              Гостиници
-            </a>
-          </li>
-        </ul>
-      </header>
-      <section class="catalog">
-        <h2 class="visually-hidden">Фильтр Гостиниц</h2>
-        <form class="catalog-form" action="index.html" method="get">
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Инфраструктура:</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
-                <label class="control" for="pool">
-                  <input class="control-  input" type="checkbox" name="bed-head-for-men" id="pool">
-                  Бассеин
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control" for="pool1">
-                  <input class="control-input" type="checkbox" name="homme-deep-cleansing-cool" id="pool1" checked>
-                  Парковка
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control" for="pool2">
-                  <input class="control-input" type="checkbox" name="so-intense" id="pool2" checked>
-                  wi-fi
-                </label>
-              </li>
-            </ul>
-          </fieldset>
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Тип жилья:</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="bed-head-for-men">
-                  Гостиница
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="homme-deep-cleansing-cool" checked>
-                  Мотель
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="so-intense" checked>
-                  Апартаменты
-                </label>
-              </li>
-            </ul>
-          </fieldset>
-          <fieldset class="catalog-filter-diopozon">
-            <legend class="catalog-filter-title">Стоимость,р:</legend>
-            <input type="text" value="0">
-            <input type="text" value="9000"><br>
-            <input type="range" id="dayscount" name="dayscount" min="0" max="9000" step="1">
-          </fieldset>
-          <input class="buttom-ok" type="submit" name="buttom-submit" value="Применить">
-          <input class="buttom-reset" type="reset" name="buttom-reset" value="Сбросить">
-        </form>
-      </section>
+        <header class="inner-nav">
+          <h1 class="inner-nav-h1">Гостиницы Седоны</h1>
+          <ul class="inner-nav-list">
+            <li class="inner-nav-it">
+              <a class="inner-nav-it-a" href="index.html">
+                <img src="images/Vector-krohi.svg" alt="#">
+                <span class="visually-hidden">На главную страницу</span>
+              </a>
+            </li>
+            <li class="inner-nav-it">
+              <a class="inner-nav-it-a" href="Catalog.html">
+                Гостиници
+              </a>
+            </li>
+          </ul>
+        </header>
+        <section class="catalog">
+          <h2 class="visually-hidden">Фильтр Гостиниц</h2>
+          <form class="catalog-form" action="index.html" method="get">
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Инфраструктура:</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control" for="pool">
+                    <input class="control-  input" type="checkbox" name="bed-head-for-men" id="pool">
+                    Бассеин
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control" for="pool1">
+                    <input class="control-input" type="checkbox" name="homme-deep-cleansing-cool" id="pool1" checked>
+                    Парковка
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control" for="pool2">
+                    <input class="control-input" type="checkbox" name="so-intense" id="pool2" checked>
+                    wi-fi
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Тип жилья:</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="bed-head-for-men">
+                    Гостиница
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="homme-deep-cleansing-cool" checked>
+                    Мотель
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="so-intense" checked>
+                    Апартаменты
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset class="catalog-filter-diopozon">
+              <legend class="catalog-filter-title">Стоимость,р:</legend>
+              <input type="text" value="0">
+              <input type="text" value="9000"><br>
+              <input type="range" id="dayscount" name="dayscount" min="0" max="9000" step="1">
+            </fieldset>
+            <input class="buttom-ok" type="submit" name="buttom-submit" value="Применить">
+            <input class="buttom-reset" type="reset" name="buttom-reset" value="Сбросить">
+          </form>
+        </section>
 
 
       </div>
@@ -221,9 +222,9 @@
           </li>
         </ul>
       </section>
-      <section class="signature">
-        <h2 class="signature-h2">Подпишитесь на рассылку</h2>
-        <p class="signature-p">Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <section class="signature-catalog">
+        <h2 class="signature-catalog-h2">Подпишитесь на рассылку</h2>
+        <p class="signature-catalog-p">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
         <form class="signature-form" action="index.html" method="post">
           <input type="text" placeholder="Ваш e-mail">
           <button class="signature-button" type="submit">подписаться</button>
