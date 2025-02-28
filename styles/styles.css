@@ -17,6 +17,9 @@
 
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -25,10 +28,30 @@ body {
   background-color: rgba(242, 242, 242, 1);
   border-color: #FFFFFF;
   margin-top: 0px;
+  margin-bottom: 0px;
+}
+.main-container{
+  flex-grow: 1;
+  margin-bottom: 0px;
+
 }
 
+.logo-svg {
+  display: block;
+  margin: 0 auto;
+}
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
 .page-header{
   background-color: rgba(255, 255, 255, 1);
+}
+.navigation{
+  width: 1200px;
+  height: 64px;
+  display: flex;
+  margin-bottom: 0px;
 }
 .navigation-link{
   font-weight: 700;
@@ -36,7 +59,11 @@ body {
   color: rgba(0, 0, 0, 1);
   text-decoration: none;
 }
-.navition-link{
+.navigation-it{
+  margin: 20px 16px;
+
+}
+.navition-link {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -44,8 +71,35 @@ body {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(117, 97, 87, 1);
+}
+.navigation-list{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+  width: 339px;
+  height: 64px;
+}
 
+.navigation-user{
+  display: flex;
+  justify-content: flex-start;
+  width: 268px;
+  height: 64px;
+  margin-top: 0px;
+  margin-left: 285px;
+  background-color: tomato;
+}
 
+.navigation-user-it{
+  padding-left: 0px;
+  padding-top: 22px;
+  background-color: red;
+}
+.navigation-user-bottom{
+  width: 160px;
+  height: 36px;
 }
 .zogolovok{
   background-image: url("../images/Vector-index.svg"), url("../images/index-background.jpg");
@@ -53,6 +107,13 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
 
+
+}
+
+.advantages-white-background{
+  width: 1200px;
+  height: 261px;
+  background-color: rgba(255, 255, 255, 1);
 }
 .advantages-leag{
   font-weight: 700;
@@ -69,6 +130,7 @@ body {
   text-align: center;
   color: rgba(51, 51, 51, 1);
 }
+
 .advantages-h3{
   font-weight: 700;
   font-size: 24px;
@@ -79,32 +141,75 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: rgba(0, 0, 0, 1);
+  text-align: center;
 }
 .advantages-it-1{
+  display: flex;
+  width: 1200px;
+  height: 385px;
   background-color: rgba(130, 179, 211, 1);
   color: rgba(255, 255, 255, 1);
+}
+.advantages-span{
+  width: 400px
+}
+.advantages-h3{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 102px;
+  margin-bottom: 62px;
+
+}
+.visually-hidden{
+  padding-top: 0px;
+  margin-top: 0px;
 }
 .advantages-text-1{
-  background-color: rgba(130, 179, 211, 1);
-  color: rgba(255, 255, 255, 1);
+  text-align: center;
+
+}
+.advantages-list{
+  display: flex;
+  width: 1200px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .advantages-it-2{
+  width: 400px;
+  height: 385px;
   background-color: rgba(131, 179, 211, 0.12);
 }
 .advantages-it-3{
+  width: 400px;
+  height: 385px;
   background-color: rgba(131, 179, 211, 0.2);
 }
 .advantages-it-4{
+  width: 400px;
+  height: 385px;
   background-color: rgba(131, 179, 211, 0.12);
 }
 .advantages-it-5{
+  display: flex;
+  justify-content: flex-start;
   background-color: rgba(130, 179, 211, 1);
   color: rgba(255, 255, 255, 1);
 }
+.invitation{
+  width: 1200px;
+  height: 246px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-bottom: 0px;
+
+}
+
 .services-Btext{
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  padding-top: 64px;
+  margin-top: 0px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -112,37 +217,79 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  padding-bottom: 64px;
   text-align: center;
   color: rgba(51, 51, 51, 1);
 }
+.services-list{
+  display: flex;
+  width: 1200px;
+  height: 385px;
+  margin-top: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+
+}
+.services-it-food{
+  background-color: rgba(255, 255, 255, 1);
+  width: 400px;
+  height: 385px;
+}
+.services-it{
+  width: 400px;
+  height: 385px;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+
 .services-h3{
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  text-align: center;
 }
 .services-p{
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  text-align: center;
 }
-.services-it{
-  background-color: rgba(131, 179, 211, 0.12);
+.services-svg{
+  padding-left: 163px;
+  padding-top: 81px;
+
+}
+.container{
+  width: 1200px;
+  height: 406px;
+  margin-top: 0px;
+  background-color: rgba(255, 255, 255, 1);
 }
 .container-h3{
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  padding-top: 96px;
+  margin-top: 0px;
   color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
 }
 .container-text{
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  margin-bottom: 54px;
 }
 .container-poisk a{
+  width: 276px;
+  border-radius: 3px;
+  padding: 8px 50px;
+  margin-left: 412px;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -154,10 +301,13 @@ body {
 }
 .signature{
   background-image: url("../images/fon-bottom.jpg");
-  background-size: 100% auto;
+  background-size: 1200px 415px;
   background-repeat: no-repeat;
+  margin: 0px;
 }
 .signature-h2{
+  margin-top: 0px;
+  padding-top: 96px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -187,12 +337,29 @@ body {
   color: rgba(0, 0, 0, 1);
 }
 .signature-button{
+  width: 232px;
+  height: 56px;
+  margin-top: 54px;
+  margin-left: 0px;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   text-align: center;
+  border-radius: 3px;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(130, 179, 211, 1);
+
+}
+.input_field{
+  width: 452px;
+  height: 51px;
+  margin-right: 0px;
+  margin-left: 258px;
+  margin-top: 54px;
+  margin-bottom: 104px;
+}
+.signature-form{
+  display: flex;
 }
 .contacts-phone{
   font-weight: 400;
@@ -306,4 +473,39 @@ body {
   background-color: rgba(130, 179, 211, 1);
   color: rgba(255, 255, 255, 1);
   border: none;
+}
+.main-footer{
+  display: flex;
+  margin-top: 0px;
+  margin-left: 24px;
+  margin-top: 0px;
+  width: 1200px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.main-footer-list{
+  width: 142px;
+  height: 40px;
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 35px;
+  margin-left: 70px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+.main-footer-it{
+  margin-top: auto;
+  padding-left: 12px;
+  width: 47px;
+
+}
+.academy-logo{
+  margin-left: 235px;
+  margin-top: 48px;
+  margin-right: 70px;
+  margin-bottom: auto;
+}
+.contacts-phone{
+  margin-top: 45px;
+  margin-left: 236px;
 }
