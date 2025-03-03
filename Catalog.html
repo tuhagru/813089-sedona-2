@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+  <div class="catalog_div">
+
+
   <header class="page-header">
     <nav class="navigation">
       <a href="index.html">
@@ -17,28 +20,25 @@
           <a class="navigation-link" href="index.html">Главная</a>
         </li>
         <li class="navigation-it">
-          <a class="navigation-link" href="about.html">О седоне</a>
+          <a class="navigation-link" href="index.html">О Седоне</a>
         </li>
         <li class="navigation-it">
           <a class="navigation-link" href="Catalog.html">Гостиницы</a>
         </li>
       </ul>
       <ul class="navigation-user">
-        <li class="navigation-it">
+        <li class="navigation-user-it">
           <a class="navigation-link" href="index.html">
             <img src="images/search.svg" width="20" height="20" alt="Поиск"></a>
           </li>
-          <li class="navigation-it">
+          <li class="navigation-user-it1">
             <a class="navigation-link" href="index.html">
-              <img src="images/Likee.svg" width="20" height="20" alt="Лайки">
-              <!--<span class="visually-hidden">Избранное</span>-->
               <span class="likes-number">12</span>
+              <img class="likee_svg" src="images/Likee.svg" width="20" height="20" alt="Лайки">
             </a>
           </li>
-          <li class="navigation-it">
-            <a class="navition-link" href="Catalog.html">ХОЧУ СЮДА!</a>
-          </li>
         </ul>
+        <button class="navigation-bottom" type="submit" name="button-navigation" href="Catalog.html">ХОЧУ СЮДА!</button>
       </nav>
     </header>
     <main class="main-inner">
@@ -49,13 +49,11 @@
             <li class="inner-nav-it">
               <a class="inner-nav-it-a" href="index.html">
                 <img src="images/Vector-krohi.svg" alt="#">
-                <span class="visually-hidden">На главную страницу</span>
+                <!--<span class="visually-hidden">На главную страницу</span>-->
               </a>
             </li>
             <li class="inner-nav-it">
-              <a class="inner-nav-it-a" href="Catalog.html">
-                Гостиници
-              </a>
+              <a class="inner-nav-it-a" href="Catalog.html">Гостиницы</a>
             </li>
           </ul>
         </header>
@@ -118,8 +116,6 @@
             <input class="buttom-reset" type="reset" name="buttom-reset" value="Сбросить">
           </form>
         </section>
-
-
       </div>
       <section class="gelleri-main">
         <h2 class="gelleri-title">Найдено гостиниц: 38</h2>
@@ -236,19 +232,16 @@
         <li class="main-footer-it">
           <a class="social-link" href="https://vk.com/htmlacademy">
             <img src="images/Vk.svg" width="24" height="14" alt="Вконтакте">
-            <span class="visually-hidden">В контакте</span>
           </a>
         </li>
         <li class="main-footer-it">
           <a class="social-link" href="https://t.me/htmlacademy ">
             <img src="images/Telegram.svg" width="24" height="14" alt="Телеграм">
-            <span class="visually-hidden">Телеграм</span>
           </a>
         </li>
         <li class="main-footer-it">
           <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
             <img src="images/YouTube.svg" width="24" height="14" alt="Ютюб">
-            <span class="visually-hidden">Youtube</span>
           </a>
         </li>
       </ul>
@@ -256,5 +249,7 @@
       <a class="author-logo" href="https://htmlacademy.ru/">
         <img class="academy-logo" width="115" height="33" src="images/logo-HTML-Academy.svg" alt="Логотип Аккадемии">
       </a>
-    </footer></body>
+    </footer>
+  </div>
+  </body>
     </html>
