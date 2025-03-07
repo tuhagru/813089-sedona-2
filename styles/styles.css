@@ -37,6 +37,9 @@ body {
   padding-top: 51px;
   padding-bottom: 82px;
 }
+.logo{
+  margin-left: 70px;
+}
 .page-container {
   width: 1200px;
   margin: 0 auto;
