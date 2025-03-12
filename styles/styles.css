@@ -84,7 +84,6 @@ body {
   line-height: 20px;
   text-align: center;
   text-decoration: none;
-  margin-right: 30px;
   margin-left: 20px;
   margin-top: 14px;
   border-radius: 3px;
@@ -109,11 +108,13 @@ body {
   width: 88px;
   height: 64px;
   margin-top: 0px;
-  margin-left: 235px;
+  margin-left: 245px;
 
 
 }
-
+.navigation-user-it1{
+  padding-left: 10px;
+}
 .navigation-user-it{
   padding: 22px 12px;
 
@@ -173,6 +174,14 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+
+}
+.advantages-text-1{
+  margin-top: 0px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 .advantages-text{
   font-weight: 400;
@@ -199,6 +208,7 @@ body {
 }
 .advantages-h3-most{
   margin-top: 102px;
+  margin-bottom: 62px;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -210,14 +220,7 @@ body {
   padding-top: 0px;
   margin-top: 0px;
 }
-.advantages-text-1{
-  text-align: center;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
 
-
-}
 .advantages-list{
   display: flex;
   width: 1200px;
@@ -461,7 +464,7 @@ body {
 }
 .inner-nav-list{
   margin-top: 8px;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 .inner-nav-list a{
   color: rgba(255, 255, 255, 1);
@@ -479,7 +482,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 70px;
-  margin-left: 70px;
+  margin-left: 60px;
 
 }
 .buttom-ok{
@@ -491,7 +494,7 @@ body {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(130, 179, 211, 1);
-  width: 191px;
+  width: 181px;
   height: 36px;
   border-radius: 7px;
 
@@ -508,7 +511,7 @@ body {
   border: none;
   width: 191px;
   height: 36px;
-  margin-top: 32px;
+  margin-top: 36px;
 }
 
 
@@ -519,7 +522,8 @@ body {
 }
 .catalog-filter-title{
   padding-left: 45px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
+  padding-top: 20px;
   padding-bottom: 0px;
   font-weight: 700;
   font-size: 20px;
@@ -527,12 +531,14 @@ body {
 
 }
 .catalog-filter-diopozon{
-  margin-left: 100px;
+  margin-left: 130px;
   padding-left: 0px;
   padding-right: 0px;
 }
+
 .catalog-filter-title-diopozon{
-  padding-left: 0px;
+  padding-left: 10px;
+  padding-top: 20px;
   margin-bottom: 45px;
   padding-bottom: 0px;
   font-weight: 700;
@@ -553,7 +559,9 @@ body {
 
 }
 .catalog-filter-item{
+  width: 150px;
   margin-top: 16px;
+  padding-left: 25px;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -561,8 +569,9 @@ body {
 }
 .catalog-filter-diopozon-form{
   width: 143px;
-  height: 48px;
-  border-radius: 7px;
+  height: 46px;
+  border-radius: 4px;
+  margin-top: 0px;
 }
 .catalog_div{
   display: flex;
@@ -579,8 +588,11 @@ body {
   margin-bottom: 40px;
 }
 .gelleri-title{
-  margin-right: 200px;
-  margin-top: auto;
+  width: 438px;
+  height: 36px;
+  text-transform: uppercase;
+  margin-right: 0px;
+  margin-top: 22px;
   margin-bottom: auto;
   font-weight: 700;
   font-size: 30px;
@@ -592,18 +604,20 @@ body {
 }
 .variants{
   width: 292px;
-  padding-left: 0px;
-  margin-left: 40px;
+  height: 49px;
+  margin-top: 15px;
+  margin-left: 100px;
   text-align: left;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  border-radius: 7px;
+  border-radius: 4px;
 
 }
 .gelleri-view-list{
   margin-top: auto;
   margin-bottom: auto;
+  margin-top: 15px;
   padding-left: 0px;
   margin-left: 70px;
   width: 160px;
@@ -612,13 +626,13 @@ body {
   Gap: 4px;
 }
 .gelleri-view-it{
-  width: 48;
-  height: 48;
+  width: 44px;
+  height: 20px;
   gap: 10px;
   padding-top: 14px;
   padding-right: 12px;
   padding-bottom: 14px;
-  padding-left: 12px;
+  padding-left: 14px;
   border-radius: 4px;
   border-width: 2px;
   border: 2px solid rgba(229, 229, 229, 1);
@@ -633,17 +647,21 @@ body {
   width: 1080px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0px;
+  padding-left: 20px;
+  margin-top: 50px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 20px;
 
+
 }
 .catalog-it{
   width: 340px;
   height: 438px;
-  border: 1px solid rgba(230, 230, 230, 1)
+  border-radius: 4px;
+  border: 1px solid rgba(230, 230, 230, 1);
+
 }
 .hotel-img{
   margin: 20px;
