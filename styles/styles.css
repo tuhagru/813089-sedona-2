@@ -410,15 +410,18 @@ body {
   margin-left: 258px;
   padding-left: 20px;
   background-color: rgba(242, 242, 242, 1);
-  border-radius: 5px;
+  border-radius: 4px;
+  border: 0px;
 }
 .signature-button{
+  font-family: PT Sans;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
   width: 232px;
   height: 52px;
+  margin-top: 0px;
   margin-left: 0px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
   text-align: center;
   border-radius: 3px;
   color: rgba(255, 255, 255, 1);
@@ -446,6 +449,8 @@ body {
 /*Стили каталога*/
 
 .div-filter{
+  width: 1200px;
+  height: 412px;
   background-image: url("../images/background-img2.jpg");
   background-size: 1200px 412px;
   background-repeat: no-repeat;
@@ -494,8 +499,9 @@ body {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(130, 179, 211, 1);
-  width: 181px;
-  height: 36px;
+  width: 196px;
+  height: 40px;
+  margin-top: 6px;
   border-radius: 7px;
 
 }
@@ -511,7 +517,7 @@ body {
   border: none;
   width: 191px;
   height: 36px;
-  margin-top: 36px;
+  margin-top: 30px;
 }
 
 
@@ -521,14 +527,21 @@ body {
   height: 130px;
 }
 .catalog-filter-title{
-  padding-left: 45px;
+  padding-left: 48px;
   margin-bottom: 16px;
   padding-top: 20px;
   padding-bottom: 0px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
 
+}
+#pool {
+  transform:scale(1.7);
+  opacity:0.9;
+  cursor:pointer;
+  margin-right: 10px;
+  padding-left: 0px;
 }
 .catalog-filter-diopozon{
   margin-left: 130px;
@@ -537,9 +550,9 @@ body {
 }
 
 .catalog-filter-title-diopozon{
-  padding-left: 10px;
+  padding-left: 0px;
   padding-top: 20px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
   padding-bottom: 0px;
   font-weight: 700;
   font-size: 20px;
@@ -548,7 +561,7 @@ body {
 }
 .catalog-filter-diopozon-range{
   margin-top: 40px;
-  width: 305px;
+  width: 280px;
 }
 .catalog-form{
   display: flex;
@@ -560,18 +573,19 @@ body {
 }
 .catalog-filter-item{
   width: 150px;
-  margin-top: 16px;
-  padding-left: 25px;
+  margin-top: 15px;
+  padding-left: 12px;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
 
 }
 .catalog-filter-diopozon-form{
-  width: 143px;
-  height: 46px;
-  border-radius: 4px;
-  margin-top: 0px;
+  width: 133px;
+  height: 42px;
+  margin-top: 5px;
+  font-size: 16px;
+  border-radius: 5px;
 }
 .catalog_div{
   display: flex;
@@ -592,7 +606,7 @@ body {
   height: 36px;
   text-transform: uppercase;
   margin-right: 0px;
-  margin-top: 22px;
+  margin-top: 6px;
   margin-bottom: auto;
   font-weight: 700;
   font-size: 30px;
@@ -605,7 +619,8 @@ body {
 .variants{
   width: 292px;
   height: 49px;
-  margin-top: 15px;
+  padding-left: 16px;
+  margin-top: 2px;
   margin-left: 100px;
   text-align: left;
   font-weight: 400;
@@ -613,11 +628,14 @@ body {
   line-height: 21px;
   border-radius: 4px;
 
+  font-family: PT Sans;
+
+
 }
 .gelleri-view-list{
   margin-top: auto;
   margin-bottom: auto;
-  margin-top: 15px;
+  margin-top: 2px;
   padding-left: 0px;
   margin-left: 70px;
   width: 160px;
@@ -626,8 +644,8 @@ body {
   Gap: 4px;
 }
 .gelleri-view-it{
-  width: 44px;
-  height: 20px;
+  width: 34px;
+  height: 16px;
   gap: 10px;
   padding-top: 14px;
   padding-right: 12px;
@@ -648,11 +666,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 18px;
+  border-bottom: 2px solid;
+  border-color: rgba(229, 229, 229, 1);
+  padding-bottom: 40px;
+
 
 
 }
@@ -673,7 +695,7 @@ body {
 .catalog-h3{
   height: 28px;
   margin-left: 20px;
-  margin-top: 16px;
+  margin-top: 10px;
   margin-bottom: 0px;
   font-weight: 700;
   font-size: 24px;
@@ -683,10 +705,11 @@ body {
 .catalog-p1-p2{
   display: flex;
 
+
 }
 .catalog-p1{
   margin-left: 20px;
-  margin-top: 16px;
+  margin-top: 14px;
   margin-bottom: 0px;
   font-weight: 400;
   font-size: 18px;
@@ -699,7 +722,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   cursor: rgba(51, 51, 51, 1);
-  margin-top: 16px;
+  margin-top: 14px;
   margin-bottom: 0px;
 }
 .catalog-a-input{
@@ -713,7 +736,7 @@ body {
   padding-bottom: auto;
   width: 140px;
   height: 28px;
-  font-weight: 700;
+  font-weight: 630;
   font-size: 16px;
   line-height: 20px;
   color: rgba(255, 255, 255, 1);
@@ -726,8 +749,8 @@ body {
   height: 36px;
   border-radius: 4px;
   margin-left: 20px;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 630;
+  font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
   background-color: rgba(130, 179, 211, 1);
@@ -743,6 +766,7 @@ body {
 
 }
 .rating{
+  text-transform: uppercase;
   width: 140px;
   height: 28px;
   margin-top: 0px;
@@ -760,11 +784,12 @@ body {
 /*кнопки листания галереи*/
 .pagination-ul{
   width: 1060px;
+  height: 0px;
   margin-top: 40px;
-  padding-top: 40px;
   padding-bottom: 60px;
   margin-left: 50px;
   margin-right: auto;
+
 }
 .pagination-list a{
   border-radius: 4px;
@@ -776,14 +801,18 @@ body {
   color: rgba(242, 242, 242, 1);
 }
 .pagination-list{
+  width: 400px;
+  height: 60px;
   display: flex;
-  padding-left: 0px;
+  padding-left: 13px;
+
+
 }
 .pagination-it{
   background-color: rgba(130, 179, 211, 1);
   padding: 12px 24px;
   width: 12px;
-  height: 30px;
+  height: 36px;
   border-radius: 4px;
   margin-left: 8px;
 
@@ -791,7 +820,8 @@ body {
 .signature-catalog{
   background-color: rgba(255, 255, 255, 1);
   width: 1200px;
-  height: 415px;
+  height: 475px;
+
 }
 .signature-catalog-h2{
   font-weight: 700;
@@ -799,8 +829,9 @@ body {
   line-height: 36px;
   color: rgba(0, 0, 0, 1);
   text-transform: uppercase;
-  padding-top: 96px;
+  padding-top: 156px;
   margin-top: 0px;
+
 }
 .signature-catalog-p{
   margin-bottom: 0px;
