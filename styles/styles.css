@@ -71,9 +71,15 @@ body {
   text-decoration: none;
 
 }
+.navigation-it:nth-child(2){
+  width: 134px;
+}
 .navigation-it{
-  margin: 20px 16px;
-
+  width: 100px;
+  height: 64px;
+  margin-left: 2px;
+  padding: 20px 16px;
+  padding-left: 14px;
 
 }
 .navigation-bottom {
@@ -84,7 +90,7 @@ body {
   line-height: 20px;
   text-align: center;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 18px;
   margin-top: 14px;
   border-radius: 3px;
   border: 0px;
@@ -97,7 +103,7 @@ body {
   justify-content: flex-start;
   margin: 0;
   padding: 0;
-  margin-left: 30px;
+  margin-left: 29px;
   width: 339px;
   height: 64px;
   list-style-type: none;
@@ -523,7 +529,7 @@ body {
   border: none;
   width: 191px;
   height: 36px;
-  margin-top: 30px;
+  margin-top: 32px;
 }
 
 
@@ -533,8 +539,12 @@ body {
   height: 130px;
   list-style-type: none;
 }
+.control{
+  padding-left: 3px;
+
+}
 .catalog-filter-title{
-  padding-left: 48px;
+  padding-left: 60px;
   margin-bottom: 16px;
   padding-top: 20px;
   padding-bottom: 0px;
@@ -551,7 +561,7 @@ body {
   padding-left: 0px;
 }
 .catalog-filter-diopozon{
-  margin-left: 140px;
+  margin-left: 135px;
   padding-left: 0px;
   padding-right: 0px;
   border: 0px;
@@ -594,19 +604,21 @@ body {
 }
 .catalog-filter-diopozon-form1{
   width: 137px;
-  height: 42px;
+  height: 44px;
   margin-left: 5px;
-  margin-top: 5px;
-  font-size: 16px;
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 700;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border: 0px;
 }
 .catalog-filter-diopozon-form2{
   width: 137px;
-  height: 42px;
-  margin-top: 5px;
-  font-size: 16px;
+  height: 44px;
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 700;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   border: 0px;
@@ -665,16 +677,18 @@ body {
   width: 160px;
   height: 48px;
   display: flex;
-  Gap: 4px;
+  Gap: 8px;
   list-style-type: none;
+}
+.gelleri-view-it:nth-child(1){
+  border: 2px solid rgba(0, 0, 0, 1);
 }
 .gelleri-view-it{
   width: 34px;
-  height: 16px;
-  gap: 10px;
-  padding-top: 14px;
+  height: 17px;
+  padding-top: 10px;
   padding-right: 12px;
-  padding-bottom: 14px;
+  padding-bottom: 16px;
   padding-left: 14px;
   border-radius: 4px;
   border-width: 2px;
@@ -782,6 +796,14 @@ body {
   color: rgba(255, 255, 255, 1);
   border: none;
 }
+.stars-list{
+  padding-left: 0px;
+  padding-top: 10px;
+  width: 140px;
+  display: flex;
+  gap: 6px;
+  list-style-type: none;
+}
 .four-stars-rating{
   display: flex;
   width: 300px;
@@ -795,7 +817,7 @@ body {
   width: 140px;
   height: 28px;
   margin-top: 0px;
-  margin-left: 55px;
+  margin-left: 23px;
   padding-top: 9px;
   font-weight: 400;
   font-size: 16px;
@@ -810,11 +832,10 @@ body {
 .pagination-ul{
   width: 1060px;
   height: 0px;
-  margin-top: 40px;
+  margin-top: 38px;
   padding-bottom: 60px;
   margin-left: 50px;
   margin-right: auto;
-
 }
 .pagination-list a{
   border-radius: 4px;
@@ -826,8 +847,18 @@ body {
   color: rgba(242, 242, 242, 1);
 
 }
-.pagination-list{
 
+.pagination-it:nth-child(6){
+  padding-left: 20px;
+  padding-right: 30px;
+}
+.pagination-it:nth-child(5){
+  background-color: rgba(0, 0, 0, 1);
+}
+.pagination-it:nth-child(1){
+  background-color: rgba(0, 0, 0, 1);
+}
+.pagination-list{
   width: 400px;
   height: 60px;
   display: flex;
@@ -856,11 +887,12 @@ body {
   line-height: 36px;
   color: rgba(0, 0, 0, 1);
   text-transform: uppercase;
-  padding-top: 156px;
+  padding-top: 154px;
   margin-top: 0px;
-
+  margin-bottom: 0px;
 }
 .signature-catalog-p{
+  margin-top: 20px;
   margin-bottom: 0px;
   font-weight: 400;
   font-size: 22px;
