@@ -90,7 +90,7 @@ body {
   line-height: 20px;
   text-align: center;
   text-decoration: none;
-  margin-left: 18px;
+  margin-left: 19px;
   margin-top: 14px;
   border-radius: 3px;
   border: 0px;
@@ -214,8 +214,17 @@ body {
 .advantages-h3{
   text-transform: uppercase;
   text-align: center;
-  margin-top: 112px;
-  margin-bottom: 62px;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+.advantages-it-h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 117px;
+  margin-bottom: 60px;
 }
 .advantages-h3-most{
   margin-top: 102px;
@@ -380,6 +389,7 @@ body {
   margin-top: 0px;
   padding-top: 96px;
   font-weight: 700;
+  margin-bottom: 0px;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -414,7 +424,7 @@ body {
 }
 .signature-input{
   width: 428px;
-  height: 48px;
+  height: 50px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -422,7 +432,8 @@ body {
   margin-left: 258px;
   padding-left: 20px;
   background-color: rgba(242, 242, 242, 1);
-  border-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
   border: 0px;
 }
 .signature-button{
@@ -435,7 +446,8 @@ body {
   margin-top: 0px;
   margin-left: 0px;
   text-align: center;
-  border-radius: 3px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(130, 179, 211, 1);
 
@@ -605,9 +617,10 @@ body {
 }
 .catalog-filter-diopozon-form1{
   width: 137px;
-  height: 44px;
-  margin-left: 5px;
+  height: 45px;
+  margin-left: 4px;
   margin-top: 4px;
+  margin-right: 0px;
   font-size: 18px;
   font-weight: 700;
   border-top-left-radius: 4px;
@@ -616,8 +629,10 @@ body {
 }
 .catalog-filter-diopozon-form2{
   width: 137px;
-  height: 44px;
+  height: 45px;
   margin-top: 4px;
+  margin-left: 0px;
+  padding-left: 3px;
   font-size: 18px;
   font-weight: 700;
   border-top-right-radius: 4px;
@@ -784,6 +799,19 @@ body {
   border-radius: 4px;
   text-transform: uppercase;
 }
+.catalog-input-green{
+    width: 140px;
+    height: 36px;
+    border-radius: 4px;
+    margin-left: 20px;
+    font-weight: 630;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: rgba(125, 181, 79, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
 .catalog-input{
   width: 140px;
   height: 36px;
@@ -838,6 +866,7 @@ body {
   margin-left: 50px;
   margin-right: auto;
 }
+
 .pagination-list a{
   border-radius: 4px;
   padding-left: 0px;
@@ -846,18 +875,19 @@ body {
   font-size: 20px;
   line-height: 36px;
   color: rgba(242, 242, 242, 1);
-
 }
-
+.pagination-list a:nth-child(1){
+  color: rgba(0, 0, 0, 1);
+}
 .pagination-it:nth-child(6){
   padding-left: 20px;
   padding-right: 30px;
 }
 .pagination-it:nth-child(5){
-  background-color: rgba(0, 0, 0, 1);
+  background-color:rgba(242, 242, 242, 1);
 }
 .pagination-it:nth-child(1){
-  background-color: rgba(0, 0, 0, 1);
+  background-color:rgba(242, 242, 242, 1);
 }
 .pagination-list{
   width: 400px;
@@ -865,7 +895,6 @@ body {
   display: flex;
   padding-left: 13px;
   list-style-type: none;
-
 }
 .pagination-it{
   background-color: rgba(130, 179, 211, 1);
@@ -874,7 +903,6 @@ body {
   height: 36px;
   border-radius: 4px;
   margin-left: 8px;
-
 }
 .signature-catalog{
   background-color: rgba(255, 255, 255, 1);
@@ -923,7 +951,7 @@ body {
   width: 142px;
   height: 40px;
   display: flex;
-  margin-top: 45px;
+  margin-top: 42px;
   margin-bottom: 35px;
   margin-left: 70px;
   padding-left: 0px;
